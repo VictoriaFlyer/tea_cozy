@@ -39,3 +39,15 @@ span a {
 }
 
 /*MAIN*/
+
+/*FOOTER*/
+.contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.copyright {
+padding-left: 20px;
+}
