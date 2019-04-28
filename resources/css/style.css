@@ -72,6 +72,36 @@ h2,h4 {
   margin: 15px;
 }
 
+/*TEAS OF THE MONTH*/
+.tea_month {
+  margin: 100px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.teas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.tea {
+  /*margin: 15px;*/
+
+}
+
+h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tea img{
+  height: 200px;
+  width: 300px;
+}
+
 
 /*FOOTER*/
 .contacts {
