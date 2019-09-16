@@ -63,8 +63,52 @@ main {
   align-items: center;
 }
 
-.text-content h2, h4 {
-  margin: 20px;
+.mission h2 {
+  margin: 10px;
+}
+
+.mission h4 {
+  margin: 10px;
 }
 
 /*TEAS*/
+.teas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+.teas .text-content{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tea {
+  margin: 20px;
+}
+.tea h4{
+  margin: 10px;
+  text-align: center;
+}
+
+.tea img  {
+  height: 200px;
+  width: 300px;
+}
