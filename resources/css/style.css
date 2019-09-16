@@ -5,7 +5,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9
-  text-align: center;
+  align-text: center;
 }
 
 
@@ -20,6 +20,7 @@ header {
   top: 0;
   z-index: 1;
   width: 100%;
+  background-color: inherit;
 }
 
 .logo img {
@@ -32,3 +33,38 @@ header nav span a{
   margin-right: 25px;
   color: seashell;
 }
+
+/*MAIN*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+/*MISSION*/
+.mission {
+  position: relative;
+  padding-top: 70px;
+  height:700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.mission .text-content {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content h2, h4 {
+  margin: 20px;
+}
+
+/*TEAS*/
