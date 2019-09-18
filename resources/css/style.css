@@ -5,7 +5,6 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9
-  align-text: center;
 }
 
 
@@ -41,6 +40,7 @@ main {
   justify-content: flex-start;
   align-items: center;
 }
+
 /*MISSION*/
 .mission {
   position: relative;
@@ -111,4 +111,63 @@ main {
 .tea img  {
   height: 200px;
   width: 300px;
+}
+
+/*LOCATIONS*/
+.places {
+  margin-top: 80px;
+  height: 500px;
+  width: 1200px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: 100% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /*align-items: center;*/
+}
+
+.location {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1
+}
+
+.location h3, h4 {
+  text-align: center;
+  font-weight:normal;
+}
+
+.location h3 {
+font-weight: bold;
+}
+
+.places h2{
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+}
+
+/*FOOTER*/
+
+.info{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+margin-left: 20px;
 }
